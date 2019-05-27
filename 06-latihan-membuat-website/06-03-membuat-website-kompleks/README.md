@@ -1,3 +1,3 @@
-# 📚 Ebook Frontend Fundamental
+# 📚 Ebook Belajar Frontend
 
 ## Membuat Website Kompleks
