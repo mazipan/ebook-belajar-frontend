@@ -1,6 +1,6 @@
-# 📚 Ebook Frontend Fundamental
+# 📚 Ebook Belajar Frontend
 
-Sebuah mini buku elektronik mengenai berbagai hal dasar di pengembangan antarmuka sebuah website
+BUKU YANG MEMBAHAS BERBAGAI HAL DASAR PADA PENGEMBANGAN ANTARMUKA WEBSITE
 
 ## Sampul
 
