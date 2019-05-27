@@ -4,6 +4,8 @@ Sebuah mini buku elektronik mengenai berbagai hal dasar di pengembangan antarmuk
 
 ## Sampul
 
+![](cover.png)
+
 ## Unduh PDF
 
 N/A
