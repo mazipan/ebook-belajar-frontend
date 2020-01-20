@@ -8,10 +8,10 @@
 module.exports = {
   someSidebar: {
     Pendahuluan: ['01-pendahuluan'],
-    Pengantar: ['02-pengantar-pengembangan-web'],
-    BelajarHTML: ['03-belajar-html'],
-    BelajarCSS: ['04-belajar-css'],
-    BelajarJavascript: ['05-belajar-javascript'],
+    ['Pengantar Frontend']: ['02-pengantar-pengembangan-web'],
+    ['Belajar HTML']: ['03-belajar-html'],
+    ['Belajar CSS']: ['04-belajar-css'],
+    ['Belajar Javascript']: ['05-belajar-javascript'],
     Latihan: ['06-latihan-membuat-website'],
     Penutup: ['99999-penutup'],
   },
