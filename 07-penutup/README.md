@@ -1,3 +1,0 @@
-# 📚 Ebook Belajar Frontend
-
-## Penutup
