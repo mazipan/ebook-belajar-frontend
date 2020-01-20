@@ -7,12 +7,14 @@ module.exports = {
   organizationName: 'mazipan',
   projectName: 'ebook-belajar-frontend',
   themeConfig: {
+
     navbar: {
       title: 'Ebook Belajar Frontend',
       logo: {
         alt: 'Ebook Belajar Frontend',
         src: 'img/logo.svg',
-      },
+			},
+
       links: [
         {to: 'docs/01-pendahuluan', label: 'Ebooks', position: 'left'},
         {
@@ -21,7 +23,8 @@ module.exports = {
           position: 'right',
         },
       ],
-    },
+		},
+
     footer: {
       style: 'dark',
       links: [
@@ -57,6 +60,10 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()}, Ebook Belajar Frontend. Built with Docusaurus.`,
+		},
+
+		prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
     },
   },
   presets: [
