@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Ebook Belajar Frontend',
   tagline: 'Buku yang membahas berbagai hal dasar pada pengembangan antarmuka website',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ebook-belajar-frontend.netlify.com/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'mazipan',
