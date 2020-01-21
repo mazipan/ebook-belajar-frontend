@@ -1,10 +1,10 @@
 # 📚 Ebook Belajar Frontend
 
-Buku yang membahas berbagai hal dasar pada pengembangan antarmuka website
+Buku panduan untuk menyelami dunia pengembangan antarmuka website
 
 ## Sampul
 
-![](cover.png)
+![](cover-small.png)
 
 ## Unduh PDF
 

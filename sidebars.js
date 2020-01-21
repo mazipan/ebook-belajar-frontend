@@ -7,12 +7,10 @@
 
 module.exports = {
   someSidebar: {
-    Pendahuluan: ['01-pendahuluan'],
-    ['Pengantar Frontend']: ['02-pengantar-pengembangan-web'],
-    ['Belajar HTML']: ['03-belajar-html'],
-    ['Belajar CSS']: ['04-belajar-css'],
-    ['Belajar Javascript']: ['05-belajar-javascript'],
-    Latihan: ['06-latihan-membuat-website'],
+    ['Pendahuluan']: ['01-11-pengantar', '01-12-persembahan'],
+    ['Tingkat Dasar']: ['02-10-tingkat-dasar'],
+    ['Tingkat Menengah']: ['03-10-tingkat-menengah'],
+    ['Tingkat Mahir']: ['04-10-tingkat-mahir'],
     Penutup: ['99999-penutup'],
   },
 };

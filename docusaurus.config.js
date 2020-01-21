@@ -1,25 +1,26 @@
 module.exports = {
   title: 'Ebook Belajar Frontend',
-  tagline: 'Buku yang membahas berbagai hal dasar pada pengembangan antarmuka website',
+  tagline: 'Buku panduan untuk menyelami dunia pengembangan antarmuka website',
   url: 'https://ebook-belajar-frontend.netlify.com/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'mazipan',
   projectName: 'ebook-belajar-frontend',
   themeConfig: {
+		image: 'img/logo-512x512.png',
 
     navbar: {
       title: 'Ebook Belajar Frontend',
       logo: {
         alt: 'Ebook Belajar Frontend',
-        src: 'img/logo.svg',
+        src: 'img/logo-64x64.png',
 			},
 
       links: [
-        {to: 'docs/01-pendahuluan', label: 'Ebooks', position: 'left'},
+        {to: '/docs/01-11-pengantar', label: 'Baca Buku', position: 'left'},
         {
           href: 'https://github.com/mazipan/ebook-belajar-frontend',
-          label: 'GitHub',
+          label: 'Kode Sumber',
           position: 'right',
         },
       ],
@@ -29,32 +30,36 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Sections',
+          title: 'Tingkatan Belajar',
           items: [
             {
-              label: 'Belajar HTML',
-              to: 'docs/03-belajar-html',
+              label: 'Tingkat Dasar',
+              to: 'docs/02-10-tingkat-dasar',
             },
             {
-              label: 'Belajar CSS',
-              to: 'docs/04-belajar-css',
+              label: 'Tingkat Menengah',
+              to: 'docs/03-10-tingkat-menengah',
             },
             {
-              label: 'Belajar JavaScript',
-              to: 'docs/05-belajar-javascript',
+              label: 'Tingkat Mahir',
+              to: 'docs/04-10-tingkat-mahir',
             },
           ],
         },
         {
-          title: 'Social',
+          title: 'Media Sosial',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/mazipan',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/Maz_Ipan',
+            },
+            {
+              label: 'Facebook',
+              href: 'https://facebook.com/mazipanneh',
             },
           ],
         },
@@ -72,13 +77,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/mazipan/ebook-belajar-frontend/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
-  ],
+	],
 };

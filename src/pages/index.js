@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: <>Materi Lengkap</>,
+    imageUrl: 'img/undraw_static_assets_rpm6.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Materi disusun secara berjenjang agar mudah diikuti baik oleh tingkat pemula maupun menengah.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: <>Tersedia Gratis</>,
+    imageUrl: 'img/undraw_make_it_rain_iwk4.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Buku ini tersedia Gratis bagi mereka yang memiliki niat besar untuk belajar.
       </>
     ),
   },
   {
-    title: <>Powered by React</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: <>Kontribusi Komunitas</>,
+    imageUrl: 'img/undraw_ideas_s70l.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Kalian bersama dengan komunitas memiliki peluang untuk ikut berkontribusi memperbaiki dan menambah materi di dalam buku ini.
       </>
     ),
   },
@@ -72,7 +69,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('/docs/01-pendahuluan')}>
+              to={useBaseUrl('/docs/01-11-pengantar')}>
               Get Started
             </Link>
           </div>
