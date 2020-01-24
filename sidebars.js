@@ -8,7 +8,14 @@
 module.exports = {
   someSidebar: {
     ['Pendahuluan']: ['01-11-pengantar', '01-12-persembahan'],
-    ['Tingkat Dasar']: ['02-10-tingkat-dasar'],
+		['Tingkat Dasar']: [
+			'02-10-tingkat-dasar',
+			'02-11-bahan-baku-web',
+			'02-12-persiapan-lingkungan-kerja',
+			'02-13-belajar-html',
+			'02-14-belajar-css',
+			'02-15-belajar-javascript'
+		],
     ['Tingkat Menengah']: ['03-10-tingkat-menengah'],
     ['Tingkat Mahir']: ['04-10-tingkat-mahir'],
     Penutup: ['99999-penutup'],

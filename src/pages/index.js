@@ -63,6 +63,7 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+
           <div className={styles.buttons}>
             <Link
               className={classnames(
@@ -70,9 +71,19 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('/docs/01-11-pengantar')}>
-              Get Started
+              Mulai Baca Buku
             </Link>
           </div>
+
+					<img src="img/cover-small.png"
+						alt="Sampul Buku"
+						style={{
+							marginTop: '1em',
+							width: '300px',
+							boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+							borderRadius: '5px'
+						}}/>
+
         </div>
       </header>
       <main>
