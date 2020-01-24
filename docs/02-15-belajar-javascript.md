@@ -1,5 +1,5 @@
 ---
-id: 05-belajar-javascript
+id: 02-15-belajar-javascript
 title: Belajar JavaScript
 sidebar_label: Belajar JavaScript
 ---

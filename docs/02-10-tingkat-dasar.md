@@ -9,10 +9,10 @@ Pada tingkatan ini, kalian akan diajak untuk memahami berbagai pengetahuan dasar
 Berikut materi yang bisa kalian dapatkan pada tingkatan kali ini:
 
 + [Bahan Baku Web](/docs/02-11-bahan-baku-web)
-+ [Persiapan Lingkungan Kerja](/docs/02-11-bahan-baku-web)
-+ [Belajar HTML](/docs/02-12-belajar-html)
-+ [Belajar CSS](/docs/02-13-belajar-css)
-+ [Belajar JavaScript](/docs/02-14-belajar-javascript)
++ [Persiapan Lingkungan Kerja](/docs/02-12-persiapan-lingkungan-kerja)
++ [Belajar HTML](/docs/02-13-belajar-html)
++ [Belajar CSS](/docs/02-14-belajar-css)
++ [Belajar JavaScript](/docs/02-15-belajar-javascript)
 
 Objektif yang diharapkan setelah membaca keseluruhan bagian ini diantaranya:
 
