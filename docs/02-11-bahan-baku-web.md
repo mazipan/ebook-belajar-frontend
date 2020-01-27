@@ -13,7 +13,7 @@ Sebuah web tidak dapat terlepas dari komunikasi Klien - Server. Ada beberapa web
 Secara ilustrasi sederhana, hubungan antara Klien dan Server bisa dilihat pada gambar di bawah ini:
 
 <figure>
-    <img src="./images/02-11-client-server.jpg" alt="Gambar Hubungan Klien - Server"/>
+    <img src="/img/contents/02-11-client-server.jpg" alt="Gambar Hubungan Klien - Server"/>
     <figcaption>Gambar Hubungan Klien - Server</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ Pada bahasan mengenai web terutama mengenai tampilan antarmuka, komposisi utama 
 Gambar di bawah ini menunjukkan hubungan antara ketiga teknologi diatas secara sederhana:
 
 <figure>
-    <img src="./images/02-11-html-css-js.png" alt="Ilustrasi HTML, CSS dan JavaScript"/>
+    <img src="/img/contents/02-11-html-css-js.png" alt="Ilustrasi HTML, CSS dan JavaScript"/>
     <figcaption>Ilustrasi HTML, CSS dan JavaScript</figcaption>
 </figure>
 
