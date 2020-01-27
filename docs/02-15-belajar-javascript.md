@@ -4,7 +4,7 @@ title: Belajar JavaScript
 sidebar_label: Belajar JavaScript
 ---
 
-# Belajar JavaScript
+## Belajar JavaScript
 
 ## Sejarah JavaScript
 
@@ -16,10 +16,14 @@ sidebar_label: Belajar JavaScript
 
 ## Operator
 
-## Objek dan Fungsi
+## Fungsi
 
 ## Percabangan
 
 ## Perulangan
 
 ## DOM
+
+## Event
+
+## Pengembangan Berorientasi Objek

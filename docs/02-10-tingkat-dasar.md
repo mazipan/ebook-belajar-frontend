@@ -13,6 +13,7 @@ Berikut materi yang bisa kalian dapatkan pada tingkatan kali ini:
 + [Belajar HTML](/docs/02-13-belajar-html)
 + [Belajar CSS](/docs/02-14-belajar-css)
 + [Belajar JavaScript](/docs/02-15-belajar-javascript)
++ [Latihan](/docs/02-16-latihan)
 
 Objektif yang diharapkan setelah membaca keseluruhan bagian ini diantaranya:
 
