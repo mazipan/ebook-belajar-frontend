@@ -4,4 +4,12 @@ title: Objektif Tingkat Menengah
 sidebar_label: Objektif
 ---
 
-Masih belum terpikirkan
+## Mengenal Node.js dan NPM
+
+## Memahami modul di JavaScript
+
+## Menggunakan API Node.js
+
+## Mempublikasikan pustaka ke NPM
+
+

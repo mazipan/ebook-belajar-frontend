@@ -28,7 +28,7 @@ Apple Safari maupun Microsoft Edge mungkin tidak begitu ramah dengan pengembang 
 
 Pengubah Text (*Text Editor*) akan membantu kita dalam menulis kode. Memiliki fitur dasar seperti penyorotan warna pada sintaks (*Syntax Highlight*), pelengkapan otomatis (*Autocomplete*) pada sintaks kode yang akan kita tulis sehingga kita sebagai pengembang web tidak lagi diharuskan menghafal banyaknya method atau fungsi bawaan dari berbagai bahasa pemrograman, serta berbagai fitur tambahan menarik lainnya yang pastinya mempermudah hidup kita sebagai pengembang web.
 
-Meskipun saat ini kita bisa menggunakan berbagai Developer Tools yang tersedia secara bawaan bersama dengan peramban kesayangan kita, namun tetap menggunakan pengubah text juga direkomendasikan agar mudah menyimpan ke dalam berkas lokal kita. Beberapa pilihan pengubah text yang bisa kalian coba dan pilih antara lain:
+Meskipun saat ini kita bisa menggunakan berbagai Developer Tools yang tersedia secara bawaan bersama dengan peramban kesayangan kita, namun tetap menggunakan pengubah text juga direkomendasikan agar mudah menyimpan ke dalam berkas lokal kita. Beberapa pilihan pengubah text yang cukup ramah bagi pemula yang bisa kalian coba antara lain:
 
 1. Visual Studio Code (VS Code)
 
