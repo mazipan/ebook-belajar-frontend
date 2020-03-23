@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_static_assets_rpm6.svg',
     description: (
       <>
-        Materi disusun secara berjenjang agar mudah diikuti baik oleh tingkat pemula maupun menengah.
+        Materi disusun secara berjenjang agar mudah diikuti oleh para pemula maupun mereka yang sudah di tingkat menengah dan lanjutan.
       </>
     ),
   },
@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/undraw_ideas_s70l.svg',
     description: (
       <>
-        Kalian bersama dengan komunitas memiliki peluang untuk ikut berkontribusi memperbaiki dan menambah materi di dalam buku ini.
+        Kalian bersama dengan komunitas memiliki peluang untuk ikut berkontribusi dengan memperbaiki maupun menambah materi di dalam buku ini.
       </>
     ),
   },
