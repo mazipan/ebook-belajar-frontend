@@ -6,6 +6,8 @@ sidebar_label: Belajar HTML
 
 ## Sejarah HTML
 
+-- TODO
+
 ## Struktur HTML
 
 HTML pada dasarnya terdiri dari berbagai kumpulan *tag* yang memiliki fungsi masing-masing. Setiap *tag* tersebut hampir selalu berpasangan dengan diawali dengan sebuah *tag* pembuka dan diakhiri dengan tag penutup, seperti terlihat pada contoh berikut ini:
@@ -60,8 +62,8 @@ Elemen `body` nantinya akan diisi dengan konten yang memang akan secara langsung
 Keseluruhan kode HTML dasar tersebut yang bila dikombinasikan dan disimpan ke dalam berkas yang kita beri nama `index.html` dan dibuka dengan peramban di komputer kita akan menampilkan hasil seperti berikut:
 
 <figure>
-	<img src="/img/contents/02-13-01-basic-html.png" alt="Hasil dari kode HTML dasar"/>
-	<figcaption>Gambar hasil dari kode HTML dasar</figcaption>
+	<img src="/img/contents/02-13-01-basic-html.png" alt="Hasil dari contoh kode HTML dasar"/>
+	<figcaption>Gambar hasil dari contoh kode HTML dasar</figcaption>
 </figure>
 
 ## Heading dan Text
@@ -80,8 +82,8 @@ Keseluruhan kode HTML dasar tersebut yang bila dikombinasikan dan disimpan ke da
 ```
 
 <figure>
-	<img src="/img/contents/02-13-02-heading.png" alt="Hasil dari kode elemen Heading"/>
-	<figcaption>Gambar hasil dari kode elemen Heading</figcaption>
+	<img src="/img/contents/02-13-02-heading.png" alt="Hasil dari contoh kode elemen Heading"/>
+	<figcaption>Gambar hasil dari contoh kode elemen Heading</figcaption>
 </figure>
 
 ### Paragraf
@@ -96,8 +98,8 @@ Membuat paragraf di sebuah HTML bisa menggunakan element `p`, di setiap elemen `
 ```
 
 <figure>
-	<img src="/img/contents/02-13-03-paragraf.png" alt="Hasil dari kode elemen paragraf"/>
-	<figcaption>Gambar hasil dari kode elemen paragraf</figcaption>
+	<img src="/img/contents/02-13-03-paragraf.png" alt="Hasil dari contoh kode elemen paragraf"/>
+	<figcaption>Gambar hasil dari contoh kode elemen paragraf</figcaption>
 </figure>
 
 
@@ -106,8 +108,8 @@ Membuat paragraf di sebuah HTML bisa menggunakan element `p`, di setiap elemen `
 Menambahkan sebuah tulisan biasa pada HTML bisa dicapai menggunakan elemen `span` yang menghasilkan tulisan biasa tanpa ada tambahan gaya apapun.
 
 <figure>
-	<img src="/img/contents/02-13-04-text.png" alt="Hasil dari kode elemen span"/>
-	<figcaption>Gambar hasil dari kode elemen span</figcaption>
+	<img src="/img/contents/02-13-04-text.png" alt="Hasil dari contoh kode elemen span"/>
+	<figcaption>Gambar hasil dari contoh kode elemen span</figcaption>
 </figure>
 
 Melihat dari gambar di atas, kita mungkin tidak mengetahui bahwa sebenarnya kalimat tersebut terdiri dari beberapa elemen `span` karena memang secara kasat mata tidak terdapat jarak yang memisahkan antara satu elemen `span` dengan elemen `span` berikutnya. Berikut ini adalah kode dari tampilan yang terlihat pada gambar sebelumnya:
@@ -121,11 +123,78 @@ Melihat dari gambar di atas, kita mungkin tidak mengetahui bahwa sebenarnya kali
 
 ### Cetak Tebal dan Miring
 
-Dalam sebuah kalimat atau paragraf sudah lazim bila ada satu atau lebih kata yang ingin kita tambahkan gaya tambahan untuk memperjelas maknanya atau mengikuti kaidah penulisan yang benar seperti menambahkan cetak tebal maupun membuat cetak miring pada sebuah kata. Hal ini bisa dicapai dengan menggunakan elemen `b` untuk cetak tebal dan elemen `i` untuk cetak miring.
+Dalam sebuah kalimat atau paragraf sudah lazim bila ada satu atau lebih kata yang ingin kita tambahkan gaya tambahan untuk memperjelas maknanya atau sekadar mengikuti kaidah penulisan yang benar seperti menambahkan cetak tebal maupun membuat cetak miring pada sebuah kata. Hal ini bisa dicapai dengan menggunakan elemen `b` untuk cetak tebal dan elemen `i` untuk cetak miring, seperti bisa kita lihat pada contoh kode berikut:
+
+```html
+<span>Lorem <b>ipsum dolor</b> sit amet <i>consectetur</i></span>
+```
+
+<figure>
+	<img src="/img/contents/02-13-05-cetak-tebal-miring.png" alt="Hasil dari contoh kode cetak tebal dan miring"/>
+	<figcaption>Gambar hasil dari contoh kode cetak tebal dan miring</figcaption>
+</figure>
 
 ### Penekanan
 
+Memberikan penekanan makna pada sebuah kata dalam kalimat dibutuhkan untuk memperjelas makna dan memberikan pemahaman lebih baik utamanya buat robot yang melakukan penelusuran terhadap website kita nantinya. Membuat kata dengan cetak tebal dan miring saja tidak cukup membuat robot tersebut mengerti kebutuhan kita akan penekanan kata. HTML melakukan ini dengan menyediakan elemen terpisah dari sekadar memberi gaya pada sebuah kata. Kita bisa menggunakan elemen `strong` dan `em` untuk memberikan penekanan ini. Secara kasat mata hasilnya tidak akan terlihat berbeda dengan kita menggunakan elemen `b` maupun `i` yang sudah kita pelajari sebelumnya. Mari kita lihat contoh kode dan tampilan yang dihasilkan dari kedua elemen berikut:
+
+```html
+<span>Lorem <strong>ipsum dolor</strong> sit amet <em>consectetur</em></span>
+```
+
+<figure>
+	<img src="/img/contents/02-13-06-penekanan.png" alt="Hasil dari contoh kode penekanan"/>
+	<figcaption>Gambar hasil dari contoh kode penekanan</figcaption>
+</figure>
+
 ### Hyperlink atau Tautan
+
+Hyperlink atau tautan digunakan untuk mengarahkan satu elemen ke halaman lain, eleman tersebut bisa jadi bermacam-macam mulai dari text, tombol, maupun berbagai elemen lain di dalam tautan ini. Untuk membuat sebuah tautan di HTML kita bisa menggunakan elemen `a` yang diiringi dengan atribut `href` sebagai letak halaman yang ingin dituju dan `title` sebagai pembantu bagi teman-teman yang menyandang disabilitas untuk memahami fungsi dari tautan tersebut. Mari kita lihat contoh sederhana menggunakan tautan biasa dengan sebuah text di dalamnya:
+
+```html
+<span>Jika kalian klik kata <a href="tautan.html" title="sebuah tautan">tautan</a> ini, maka akan mengarah ke halaman lain.</span>
+```
+
+<figure>
+	<img src="/img/contents/02-13-07-tautan.png" alt="Hasil dari contoh kode tautan sederhana"/>
+	<figcaption>Gambar hasil dari contoh kode tautan sederhana</figcaption>
+</figure>
+
+Kode di atas kita telah membuat kode sederhana untuk membuat tautan, tapi menurut saya ada beberapa hal lain yang perlu teman-teman ketahui terkait dengan tautan, salah satunya adalah cara memberikan alamat yang benar. Kalau kita lihat pada kode sebelumnya, kita menambahkan atribut `href="tautan.html"`. Dengan cara ini berarti kita akan bisa tautan ke halaman yang relatif dengan posisi halaman sekarang. Bila kita anggap alamat website sebagai sebuah direktori atau bisa disimulasikan sebagai berikut:
+
+```sh
+www.belajar.com/
+├── index.html
+├── tautan.html
+├── gawai/
+      ├── index.html
+      ├── samsung.html
+      └── iphone.html
+      └── xiaomi.html
+├── motor/
+      ├── index.html
+      ├── honda.html
+      └── yamaha.html
+      └── suzuki.html
+```
+
+Paling tidak ada dua cara untuk mengarahkan alamat dari sebuah tautan, diantara:
+
+**1. Alamat Absolut**
+
+Ini cara yang mudah karena kita cukup menambahkan alamat penuh sehingga tidak perlu mengetahui posisi kita saat ini ada di halaman atau direktori mana. dari contoh direktori diatas, katakanlah saya sekarang berada di `https://www.belajar.com/` dan ingin menambahkan tautan ke arah `honda.html` maka saya bisa menambahkan atribut `href="https://www.belajar.com/motor/honda.html"`. Tapi cara ini juga sangat tergantung pada domain atau direktori utama yang kita gunakan, sekali kita ganti nama direktori maka tautan ini tidak akan berjalan. Katakan saja kita menggunakan alamat yang berbeda ketika proses pembangunan di lokal dan ketika sudah dikirimkan ke lingkungan produksi, tautan dengan alamat absolut tidak akan bekerja sesuai harapan kita.
+
+**2. Alamat Relatif**
+
+Untuk menyelesaikan masalah yang ditemui saat menggunakan alamat absolut, kita bisa menggunakan alamat relatif. Alamat relatif ini juga bisa bermacam-macam, tergantung mau relatif kemana. Beberapa diantaranya yang bisa kita gunakan adalah:
+
+**2.1 Relatif terhadap alamat utama**
+
+Alamat ini memastikan kita akan selalu mengarah ke alamat atau direktori paling atas. Caranya menggunakan awalan `/`. Contoh yang sama, saya ingin menambahkan tautan ke halaman `honda.html` maka saya bisa menambahkan atribut `href="/motor/honda.html"`. Dengan cara ini, meskipun kita sedang menggunakan alamat utama yang berbeda misal `https://www.bukan-belajar.com/` maka tautan tersebut tetap akan mengarah sesuai dengan domain yang sedang aktif kita gunakan pada saat itu, dalam kasus ini berarti akan mengarah ke `https://www.bukan-belajar.com/motor/honda.html`.
+
+**2.2 Relatif terhadap posisi saat ini**
+
+Alamat ini bergantung pada posisi kita saat ini berada, misal saya ingin mengarahkan ke `honda.html` dan posisi sekarang berada di `https://www.belajar.com/`, maka saya bisa menggunakan atribut `href="./motor/honda.html"`. Cara ini tidak akan berjalan bila posisi kita berada di direktori yang berbeda, misalkan posisi saat ini sedang berada di `https://www.belajar.com/gawai/samsung.html` maka untuk mencapai `honda.html` kita harus memundurkan direktori dulu sebelum mencari `honda.html` atau bisa ditulis dengan atribut `href="../motor/honda.html"`. Bila kita cermati ada dua tanda yang digunakan, pertama titik satu `.` untuk mengarah pada direktori saat ini dan dua titik `..` untuk mengarah pada direktori sebelumnya.
 
 ## Blok Kontainer
 
