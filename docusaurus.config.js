@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Buku panduan untuk menyelami dunia pengembangan antarmuka website',
   url: 'https://ebook-belajar-frontend.netlify.com/',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
+  favicon: 'favicon/favicon.ico',
   organizationName: 'mazipan',
   projectName: 'ebook-belajar-frontend',
   themeConfig: {

@@ -51,7 +51,7 @@ Elemen `head` nantinya akan berisi berbagai informasi dasar mengenai halaman HTM
 </head>
 ```
 
-Elemen `body` nantinya akan diisi dengan konten yang memang akan secara langsung dilihat oleh pengguna yang mengakses berkas HTML kita, seperti text, tabel, form dan berbagai elemen lainnya. Contoh kita akan menambahkan sebuah text pada berkas HTML yang sudah kita buat, kalian bisa melihat caranya seperti kode berikut:
+Elemen `body` nantinya akan diisi dengan konten yang memang akan secara langsung dilihat oleh pengguna yang mengakses berkas HTML kita, seperti teks, tabel, form dan berbagai elemen lainnya. Contoh kita akan menambahkan sebuah teks pada berkas HTML yang sudah kita buat, kalian bisa melihat caranya seperti kode berikut:
 
 ```html
 <body>
@@ -66,7 +66,7 @@ Keseluruhan kode HTML dasar tersebut yang bila dikombinasikan dan disimpan ke da
 	<figcaption>Gambar hasil dari contoh kode HTML dasar</figcaption>
 </figure>
 
-## Heading dan Text
+## Heading dan Teks
 
 ### Heading
 
@@ -103,7 +103,7 @@ Membuat paragraf di sebuah HTML bisa menggunakan element `p`, di setiap elemen `
 </figure>
 
 
-### Text
+### Teks
 
 Menambahkan sebuah tulisan biasa pada HTML bisa dicapai menggunakan elemen `span` yang menghasilkan tulisan biasa tanpa ada tambahan gaya apapun.
 
@@ -149,7 +149,7 @@ Memberikan penekanan makna pada sebuah kata dalam kalimat dibutuhkan untuk mempe
 
 ### Hyperlink atau Tautan
 
-Hyperlink atau tautan digunakan untuk mengarahkan satu elemen ke halaman lain, eleman tersebut bisa jadi bermacam-macam mulai dari text, tombol, maupun berbagai elemen lain di dalam tautan ini. Untuk membuat sebuah tautan di HTML kita bisa menggunakan elemen `a` yang diiringi dengan atribut `href` sebagai letak halaman yang ingin dituju dan `title` sebagai pembantu bagi teman-teman yang menyandang disabilitas untuk memahami fungsi dari tautan tersebut. Mari kita lihat contoh sederhana menggunakan tautan biasa dengan sebuah text di dalamnya:
+Hyperlink atau tautan digunakan untuk mengarahkan satu elemen ke halaman lain, eleman tersebut bisa jadi bermacam-macam mulai dari teks, tombol, maupun berbagai elemen lain di dalam tautan ini. Untuk membuat sebuah tautan di HTML kita bisa menggunakan elemen `a` yang diiringi dengan atribut `href` sebagai letak halaman yang ingin dituju dan `title` sebagai pembantu bagi teman-teman yang menyandang disabilitas untuk memahami fungsi dari tautan tersebut. Mari kita lihat contoh sederhana menggunakan tautan biasa dengan sebuah teks di dalamnya:
 
 ```html
 <span>Jika kalian klik kata <a href="tautan.html" title="sebuah tautan">tautan</a> ini, maka akan mengarah ke halaman lain.</span>
@@ -160,7 +160,11 @@ Hyperlink atau tautan digunakan untuk mengarahkan satu elemen ke halaman lain, e
 	<figcaption>Gambar hasil dari contoh kode tautan sederhana</figcaption>
 </figure>
 
-Kode di atas kita telah membuat kode sederhana untuk membuat tautan, tapi menurut saya ada beberapa hal lain yang perlu teman-teman ketahui terkait dengan tautan, salah satunya adalah cara memberikan alamat yang benar. Kalau kita lihat pada kode sebelumnya, kita menambahkan atribut `href="tautan.html"`. Dengan cara ini berarti kita akan bisa tautan ke halaman yang relatif dengan posisi halaman sekarang. Bila kita anggap alamat website sebagai sebuah direktori atau bisa disimulasikan sebagai berikut:
+#### Alamat pada tautan
+
+Kalau kita lihat pada kode sebelumnya, kita menambahkan atribut `href="tautan.html"`. Dengan cara ini berarti kita akan bisa tautan ke halaman yang relatif dengan posisi halaman sekarang. Ini bukanlah cara satu-satunya untuk menambahkan sebuah alamat pada sebuah tautan, ada beberapa alternatif cara, untuk lebih memahami berikut kita akan coba kupas lebih jauh mengenai cara yang bisa kita gunakan dalam menambahkan alamat pada tautan.
+
+Bila kita anggap alamat website sebagai sebuah direktori atau bisa disimulasikan sebagai berikut:
 
 ```sh
 www.belajar.com/
@@ -188,17 +192,81 @@ Ini cara yang mudah karena kita cukup menambahkan alamat penuh sehingga tidak pe
 
 Untuk menyelesaikan masalah yang ditemui saat menggunakan alamat absolut, kita bisa menggunakan alamat relatif. Alamat relatif ini juga bisa bermacam-macam, tergantung mau relatif kemana. Beberapa diantaranya yang bisa kita gunakan adalah:
 
-**2.1 Relatif terhadap alamat utama**
+- **Relatif terhadap alamat utama**
 
 Alamat ini memastikan kita akan selalu mengarah ke alamat atau direktori paling atas. Caranya menggunakan awalan `/`. Contoh yang sama, saya ingin menambahkan tautan ke halaman `honda.html` maka saya bisa menambahkan atribut `href="/motor/honda.html"`. Dengan cara ini, meskipun kita sedang menggunakan alamat utama yang berbeda misal `https://www.bukan-belajar.com/` maka tautan tersebut tetap akan mengarah sesuai dengan domain yang sedang aktif kita gunakan pada saat itu, dalam kasus ini berarti akan mengarah ke `https://www.bukan-belajar.com/motor/honda.html`.
 
-**2.2 Relatif terhadap posisi saat ini**
+- **Relatif terhadap posisi saat ini**
 
 Alamat ini bergantung pada posisi kita saat ini berada, misal saya ingin mengarahkan ke `honda.html` dan posisi sekarang berada di `https://www.belajar.com/`, maka saya bisa menggunakan atribut `href="./motor/honda.html"`. Cara ini tidak akan berjalan bila posisi kita berada di direktori yang berbeda, misalkan posisi saat ini sedang berada di `https://www.belajar.com/gawai/samsung.html` maka untuk mencapai `honda.html` kita harus memundurkan direktori dulu sebelum mencari `honda.html` atau bisa ditulis dengan atribut `href="../motor/honda.html"`. Bila kita cermati ada dua tanda yang digunakan, pertama titik satu `.` untuk mengarah pada direktori saat ini dan dua titik `..` untuk mengarah pada direktori sebelumnya.
 
+#### Membuka tautan pada tab baru
+
+Bila kita buka kode yang telah kita buat diatas dan coba kita klik tautan tersebut, maka kita akan diarahkan ke alamat baru yakni `tautan.html` tapi tanpa membuka tab baru. Ini artinya kita akan menambahkan sejarah navigasi baru pada tab yang sedang kita buka. Ini cara yang normal, tapi pada beberapa kasus cara ini menjadikan pengguna kita malah pergi dari website kita saat ini. Contohnya saja ketika kita ingin membuaut sebuah tautan yang mengarah ke halaman website orang lain misalkan kita arahkan tautan tersebut ke `facebook.com`, maka sebaiknya kita tetap mempertahankan website kita terbuka pada tab saat ini dan mengarahkan pengguna untuk membuka tautan tersebut pada tab baru. Dari contoh tersebut, kita bisa simpulkan bahwa cara ini memang paling cocok dan paling sering digunakan untuk mengarahkan tautan ke alamat di luar halaman kita.
+
+Untuk mencapai interaksi yang seperti ini pada sebuah tautan kita harus menambahkan atribut tambahan pada tautan kita yakni `target` dengan nilai `_blank`. Jadi kita bisa menambahkan tautan seperti contoh berikut:
+
+```html
+<span>Ayo pergi ke <a href="https://www.facebook.com/" title="Facebook" target="_blank">Facebook</a>.</span>
+```
+
+Nilai dari atribut `target` itu sendiri bukan hanya `_blank` tapi ada juga `_self`, `_parent` dan `_top`. Nilai `_self` adalah bawaan, sama saja saat kita tidak membubuhkan atribut ini, nilai `_parent` dan `_top` digunakan bila website kita akan diakses di dalam sebuah iFrame. Tapi berdasarkan pengalaman saya, dari ketiga nilai diatas hanya `_blank` yang akan sering digunakan pada sebagian besar kasus.
+
+Catatan tambahan ketika kita menggunakan atribut `target="_blank"`, diharapkan selalu menambahkan atribut `rel="noopener"` dikarenakan ada alasan keamanan dimana halaman tujuan bisa memiliki akses untuk memanipulasi halaman sumber tautan tersebut. Bila kita contohkan pada kode kita sebelumnya maka menjadi seperti berikut ini:
+
+```html
+<span>Ayo pergi ke <a href="https://www.facebook.com/" title="Facebook" target="_blank" rel="noopener">Facebook</a>.</span>
+```
+
+<figure>
+	<img src="/img/contents/02-13-08-tautan-eksternal.png" alt="Hasil dari contoh kode tautan yang membuka tab baru"/>
+	<figcaption>Gambar hasil dari contoh kode tautan yang membuka tab baru</figcaption>
+</figure>
+
+#### Membuat tautan dengan elemen lain
+
+Seperti sudah saya singgung sebelumnya, tautan bisa juga ditempatkan pada elemen lain selain teks seperti menggunakan elemen gambar ataupun tombol. Kita akan melihat bagaimana contoh kode yang menggunakan gambar dan tombol sebagai sebuah tautan berikut ini:
+
+```html
+<span>Klik tombol dan gambar berikut:</span>
+<br/>
+<a href="tautan.html" title="Sebuah tautan dengan tombol"><button>tombol ini</button></a>
+<a href="tautan.html" title="Sebuah tautan dengan gambar"><img src="logo.png" alt="Belajar Frontend" /></a>
+```
+
+<figure>
+	<img src="/img/contents/02-13-09-tautan-dengan-tombol-dan-gambar.png" alt="Hasil dari contoh kode tautan dengan tombol dan gambar"/>
+	<figcaption>Gambar hasil dari contoh kode tautan dengan tombol dan gambar</figcaption>
+</figure>
+
 ## Blok Kontainer
 
-### Div
+Blok kontainer bisa diibaratkan sebagai wadah bagi komponen lain sehingga mudah bagi kita untuk mengelompokkan beberapa elemen kedalam satu grup. Blok kontainer yang paling umum dan akan sering kita gunakan adalah elemen `div`. Elemen `div` dikenal sebagai elemen yang murni dan tidak membawa gaya bawaan yang biasanya disematkan oleh masing-masing peramban yang biasanya penampakannya berbeda antara satu peramban dengan peramban lain. Satu-satunya yang mungkin menjadi bawaan adalah bahwa elemen `div` memiliki properti CSS (akan dipelajari pada bagain berikutnya) `display` dengan nilai `block`. Ini artinya `div` akan mengalir ke bawah bukan ke samping seperti kita menambahkan elemen `span` yang akan selalu mengalir ke samping. Mengalir ke bawah berarti `div` akan selalu membuat baris baru di bawah dari elemen sebelumnya. Untuk membuat sebuah elemen `div` bisa mengalir ke samping dibutuhkan bantuan CSS yang bisa mengatur posisi dari elemen `div` dalam sebuah halaman HTML.
+
+Berikut contoh bagaimana kita menggunakan elemen `div` untuk membungkus elemen lain, sehingga kita bisa membedakan ketika kita menambahkan sebuah blok kontainer dan ketika kita tidak menambahkannya:
+
+```html
+<h1>Dua elemen dengan dan tanpa blok kontainer</h1>
+
+<h2>Tanpa blok kontainer</h2>
+<a href="tautan.html" title="Sebuah tautan"><img src="logo.png" alt="Belajar Frontend" /></a>
+<a href="tautan.html" title="Sebuah tautan dengan gambar"><img src="logo.png" alt="Belajar Frontend" /></a>
+
+<h2>Dengan blok kontainer</h2>
+<div>
+	<a href="tautan.html" title="Sebuah tautan"><img src="logo.png" alt="Belajar Frontend" /></a>
+</div>
+<div>
+	<a href="tautan.html" title="Sebuah tautan dengan gambar"><img src="logo.png" alt="Belajar Frontend" /></a>
+</div>
+```
+
+<figure>
+	<img src="/img/contents/02-13-10-blok-kontainer.png" alt="Hasil dari contoh kode blok kontainer"/>
+	<figcaption>Gambar hasil dari contoh kode blok kontainer</figcaption>
+</figure>
+
+Meskipun elemen `div` menjadi satu yang paling populer, tapi sebenarnya kita disarankan untuk tidak menggunakan elemen `div` di semua bagian HTML kita. Hal ini karena sebenarnya tersedia juga beberapa blok kontainer lain yang memiliki sifat yang sama dengen elemen `div` namun lebih tepat digunakan pada satu kasus karena alasan semantik. Beberapa komponen lain yang tersedia di HTML yang bisa digunakan sebagai blok kontainer adalah elemen `header`, `nav`, `aside`, `article`, `section`, `footer` dan beberapa komponen lain yang mungkin terlewat.
 
 ## Tabel
 
@@ -222,9 +290,9 @@ Alamat ini bergantung pada posisi kita saat ini berada, misal saya ingin mengara
 
 ### Dasar Form
 
-### Inputan Text dan Variasinya
+### Inputan Teks dan Variasinya
 
-#### Input Text
+#### Input Teks
 
 #### Input Password
 

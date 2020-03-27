@@ -4,7 +4,7 @@ Buku panduan untuk menyelami dunia pengembangan antarmuka website
 
 ## Sampul
 
-![](cover-small.png)
+![](static/img/cover-small.png)
 
 ## Unduh PDF
 
@@ -20,4 +20,4 @@ N/A
 
 ---
 
-Copyright © 2019 oleh Irfan Maulana
+Copyright © 2019-2020 oleh Irfan Maulana
