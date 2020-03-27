@@ -4,7 +4,7 @@ title: Belajar HTML
 sidebar_label: Belajar HTML
 ---
 
-## Sejarah HTML
+## Mengenal HTML
 
 -- TODO
 
@@ -101,7 +101,6 @@ Membuat paragraf di sebuah HTML bisa menggunakan element `p`, di setiap elemen `
 	<img src="/img/contents/02-13-03-paragraf.png" alt="Hasil dari contoh kode elemen paragraf"/>
 	<figcaption>Gambar hasil dari contoh kode elemen paragraf</figcaption>
 </figure>
-
 
 ### Teks
 
@@ -223,7 +222,7 @@ Catatan tambahan ketika kita menggunakan atribut `target="_blank"`, diharapkan s
 	<figcaption>Gambar hasil dari contoh kode tautan yang membuka tab baru</figcaption>
 </figure>
 
-#### Membuat tautan dengan elemen lain
+#### Membuat tautan dengan elemen berbeda
 
 Seperti sudah saya singgung sebelumnya, tautan bisa juga ditempatkan pada elemen lain selain teks seperti menggunakan elemen gambar ataupun tombol. Kita akan melihat bagaimana contoh kode yang menggunakan gambar dan tombol sebagai sebuah tautan berikut ini:
 
@@ -270,21 +269,23 @@ Meskipun elemen `div` menjadi satu yang paling populer, tapi sebenarnya kita dis
 
 ## Tabel
 
-### Dasar Tabel
+Seperti namanya, elemen tabel digunakan untuk membuat tabel pada sebuah HTML. Tabel merupakan salah satu elemen penting terutama bila kita bertugas untuk menampilkan data yang mana tabel menjadi solusi paling mudah digunakan untuk mengolah dan menampilkan berbagai data dalam bentuk baris dan kolomnya. Hal ini mungkin juga ditunjang dengan terbiasanya para pengguna kita dalam mengolah dan melihat berbagai data lewat aplikasi pengolah data layaknya Microsoft Excel, Google Sheets maupun aplikasi sejenisnya.
+
+### Dasar-dasar Tabel
+
+Sebuah tabel pada HTML biasa kita pecah ke dalam beberapa bagian yang membentuknya, yakni `header` yang berisikan kolom-kolom judul dan sebagainya, `body` yang berisikan baris dan kolom dengan nilai dari data yang ditampilkan serta `footer` yang biasanya berisikan informasi tambahan ataupun hasil berbagai kalkulasi dari masing-masing kolom.
 
 ### Kolom dan Baris
 
 ### Penggabungan Kolom atau Baris
 
-## List
+## Daftar
 
-### Unordered List
+### Daftar Berurut
 
-### Ordered List
+### Daftar Tidak Berurut
 
-### Definition List
-
-### Nested List
+### Daftar Bersarang
 
 ## Form
 
