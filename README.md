@@ -2,9 +2,15 @@
 
 Buku panduan untuk menyelami dunia pengembangan antarmuka website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ce0e6f37-74d3-41fd-b741-0d87b3500073/deploy-status)](https://app.netlify.com/sites/ebook-belajar-frontend/deploys) ![Dependencies](https://img.shields.io/david/mazipan/ebook-belajar-frontend.svg)
+
 ## Sampul
 
-![](static/img/cover-small.png)
+<img src="static/img/cover-small.png" title="Ebook Belajar Frontend" width="200" height="auto"/>
+
+## Baca Buku
+
+https://ebook-belajar-frontend.netlify.com/
 
 ## Unduh PDF
 
