@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Ebook Belajar Frontend',
   tagline: 'Buku panduan untuk menyelami dunia pengembangan antarmuka website',
-  url: 'https://ebook-belajar-frontend.netlify.com/',
-  baseUrl: '/',
+  url: 'https://mazipan.github.io/',
+  baseUrl: '/ebook-belajar-frontend/',
   favicon: 'favicon/favicon.ico',
   organizationName: 'mazipan',
   projectName: 'ebook-belajar-frontend',
