@@ -11,14 +11,14 @@ HTML secara bahasa merupakan kependekan dari *Hypertext Markup Language* atau se
 Bagaimana sih HTML sebenarnya? Untuk lebih mengerti perannya pada dunia nyata kita akan coba kunjungi website [https://www.baca-quran.id/](https://www.baca-quran.id/) menggunakan peramban (saya menggunakan Firefox), setelah terbuka halamannya kemudian kita klik kanan kanan dan pilih "Inspect Element"
 
 <figure>
-	<img src="/img/contents/02-13-01-right-click.png" alt="Klik kanan pada sebuah website"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-01-right-click.png" alt="Klik kanan pada sebuah website"/>
 	<figcaption>Gambar contoh klik kanan pada website</figcaption>
 </figure>
 
 Dari hasil klik kanan ini kita akan diarahkan pada **Developer Tools** pada tab "Inspector" dengan tampilan seperti berikut:
 
 <figure>
-	<img src="/img/contents/02-13-01-inspect.png" alt="Tampilan inspect element"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-01-inspect.png" alt="Tampilan inspect element"/>
 	<figcaption>Gambar hasil inspect element</figcaption>
 </figure>
 
@@ -78,14 +78,14 @@ Elemen `body` nantinya akan diisi dengan konten yang memang akan secara langsung
 Keseluruhan kode HTML dasar tersebut yang bila dikombinasikan dan disimpan ke dalam berkas yang kita beri nama `02-13-01-basic-html.html`, perlu dikaetahui bahwa kode HTML yang kita buat harus disimpan dalam ekstensi `.html` agar dikenal bahwa ini adalah berkas HTML, setelahnya kita bisa membuka berkas HTML yang sudah kita buat menggunakan peramban di komputer kita.
 
 <figure>
-	<img src="/img/contents/02-13-01-open-in-browser.png" alt="Membuka berkas HTML dengan peramban"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-01-open-in-browser.png" alt="Membuka berkas HTML dengan peramban"/>
 	<figcaption>Gambar contoh membuka berkas HTML dengan peramban</figcaption>
 </figure>
 
 Setelah kita buka di peramban maka akan menampilkan hasil seperti berikut:
 
 <figure>
-	<img src="/img/contents/02-13-01-basic-html.png" alt="Hasil dari contoh kode HTML dasar"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-01-basic-html.png" alt="Hasil dari contoh kode HTML dasar"/>
 	<figcaption>Gambar hasil dari contoh kode HTML dasar</figcaption>
 </figure>
 
@@ -105,7 +105,7 @@ Setelah kita buka di peramban maka akan menampilkan hasil seperti berikut:
 ```
 
 <figure>
-	<img src="/img/contents/02-13-02-heading.png" alt="Hasil dari contoh kode elemen Heading"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-02-heading.png" alt="Hasil dari contoh kode elemen Heading"/>
 	<figcaption>Gambar hasil dari contoh kode elemen Heading</figcaption>
 </figure>
 
@@ -121,7 +121,7 @@ Membuat paragraf di sebuah HTML bisa menggunakan element `p`, di setiap elemen `
 ```
 
 <figure>
-	<img src="/img/contents/02-13-03-paragraf.png" alt="Hasil dari contoh kode elemen paragraf"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-03-paragraf.png" alt="Hasil dari contoh kode elemen paragraf"/>
 	<figcaption>Gambar hasil dari contoh kode elemen paragraf</figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ Membuat paragraf di sebuah HTML bisa menggunakan element `p`, di setiap elemen `
 Menambahkan sebuah tulisan biasa pada HTML bisa dicapai menggunakan elemen `span` yang menghasilkan tulisan biasa tanpa ada tambahan gaya apapun.
 
 <figure>
-	<img src="/img/contents/02-13-04-text.png" alt="Hasil dari contoh kode elemen span"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-04-text.png" alt="Hasil dari contoh kode elemen span"/>
 	<figcaption>Gambar hasil dari contoh kode elemen span</figcaption>
 </figure>
 
@@ -152,7 +152,7 @@ Dalam sebuah kalimat atau paragraf sudah lazim bila ada satu atau lebih kata yan
 ```
 
 <figure>
-	<img src="/img/contents/02-13-05-cetak-tebal-miring.png" alt="Hasil dari contoh kode cetak tebal dan miring"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-05-cetak-tebal-miring.png" alt="Hasil dari contoh kode cetak tebal dan miring"/>
 	<figcaption>Gambar hasil dari contoh kode cetak tebal dan miring</figcaption>
 </figure>
 
@@ -165,7 +165,7 @@ Memberikan penekanan makna pada sebuah kata dalam kalimat dibutuhkan untuk mempe
 ```
 
 <figure>
-	<img src="/img/contents/02-13-06-penekanan.png" alt="Hasil dari contoh kode penekanan"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-06-penekanan.png" alt="Hasil dari contoh kode penekanan"/>
 	<figcaption>Gambar hasil dari contoh kode penekanan</figcaption>
 </figure>
 
@@ -178,7 +178,7 @@ Hyperlink atau tautan digunakan untuk mengarahkan satu elemen ke halaman lain, e
 ```
 
 <figure>
-	<img src="/img/contents/02-13-07-tautan.png" alt="Hasil dari contoh kode tautan sederhana"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-07-tautan.png" alt="Hasil dari contoh kode tautan sederhana"/>
 	<figcaption>Gambar hasil dari contoh kode tautan sederhana</figcaption>
 </figure>
 
@@ -241,7 +241,7 @@ Catatan tambahan ketika kita menggunakan atribut `target="_blank"`, diharapkan s
 ```
 
 <figure>
-	<img src="/img/contents/02-13-08-tautan-eksternal.png" alt="Hasil dari contoh kode tautan yang membuka tab baru"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-08-tautan-eksternal.png" alt="Hasil dari contoh kode tautan yang membuka tab baru"/>
 	<figcaption>Gambar hasil dari contoh kode tautan yang membuka tab baru</figcaption>
 </figure>
 
@@ -257,7 +257,7 @@ Seperti sudah saya singgung sebelumnya, tautan bisa juga ditempatkan pada elemen
 ```
 
 <figure>
-	<img src="/img/contents/02-13-09-tautan-dengan-tombol-dan-gambar.png" alt="Hasil dari contoh kode tautan dengan tombol dan gambar"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-09-tautan-dengan-tombol-dan-gambar.png" alt="Hasil dari contoh kode tautan dengan tombol dan gambar"/>
 	<figcaption>Gambar hasil dari contoh kode tautan dengan tombol dan gambar</figcaption>
 </figure>
 
@@ -308,7 +308,7 @@ Berikut contoh bagaimana kita menggunakan elemen `div` untuk membungkus elemen l
 ```
 
 <figure>
-	<img src="/img/contents/02-13-10-blok-kontainer.png" alt="Hasil dari contoh kode blok kontainer"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-10-blok-kontainer.png" alt="Hasil dari contoh kode blok kontainer"/>
 	<figcaption>Gambar hasil dari contoh kode blok kontainer</figcaption>
 </figure>
 
@@ -348,14 +348,14 @@ Berikut adalah contoh kode dasar sebuah tabel:
 Kode diatas bila dibuka di peramban akan menghasilkan tampilan:
 
 <figure>
-	<img src="/img/contents/02-13-11-basic-table.png" alt="Hasil dari contoh kode dasar sebuah tabel"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-11-basic-table.png" alt="Hasil dari contoh kode dasar sebuah tabel"/>
 	<figcaption>Gambar hasil dari contoh kode dasar sebuah tabel</figcaption>
 </figure>
 
 Tampilan tersebut masih lumayan susah dimengerti karena tidak ada batas antara kolom dan barisnya, untuk mengatasinya kita cukup menambahkan attribut `border=1` pada tag `table` sehingga menghasilkan tampilan:
 
 <figure>
-	<img src="/img/contents/02-13-11-basic-table-border.png" alt="Hasil dari kode tabel dengan border"/>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-11-basic-table-border.png" alt="Hasil dari kode tabel dengan border"/>
 	<figcaption>Gambar hasil dari kode tabel dengan border</figcaption>
 </figure>
 

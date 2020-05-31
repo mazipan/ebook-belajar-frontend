@@ -42,7 +42,7 @@ function Feature({imageUrl, title, description}) {
     <div className={classnames('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <img className={styles.featureImage} src={imgUrl} alt={title} loading="lazy"/>
         </div>
       )}
       <h3>{title}</h3>
@@ -77,6 +77,7 @@ function Home() {
 
 					<img src="img/cover-small.png"
 						alt="Sampul Buku"
+						loading="lazy"
 						style={{
 							marginTop: '1em',
 							width: '300px',
