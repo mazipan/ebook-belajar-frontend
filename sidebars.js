@@ -13,9 +13,11 @@ module.exports = {
 			'02-11-bahan-baku-web',
 			'02-12-persiapan-lingkungan-kerja',
 			'02-13-belajar-html',
+			'02-13-studi-kasus-html',
 			'02-14-belajar-css',
+			'02-14-studi-kasus-css',
 			'02-15-belajar-javascript',
-			'02-16-latihan'
+			'02-15-studi-kasus-javascript'
 		],
     ['Tingkat Menengah']: ['03-10-tingkat-menengah'],
     ['Tingkat Mahir']: ['04-10-tingkat-mahir'],

@@ -11,9 +11,11 @@ Berikut materi yang bisa kalian dapatkan pada tingkatan kali ini:
 + [Bahan Baku Web](/docs/02-11-bahan-baku-web)
 + [Persiapan Lingkungan Kerja](/docs/02-12-persiapan-lingkungan-kerja)
 + [Belajar HTML](/docs/02-13-belajar-html)
++ [Studi Kasus HTML](/docs/02-13-studi-kasus-html)
 + [Belajar CSS](/docs/02-14-belajar-css)
++ [Studi Kasus CSS](/docs/02-14-studi-css-html)
 + [Belajar JavaScript](/docs/02-15-belajar-javascript)
-+ [Latihan](/docs/02-16-latihan)
++ [Studi Kasus JavaScript](/docs/02-15-studi-kasus-javascript)
 
 Objektif yang diharapkan setelah membaca keseluruhan bagian ini diantaranya:
 

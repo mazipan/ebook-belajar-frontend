@@ -6,7 +6,23 @@ sidebar_label: Belajar HTML
 
 ## Mengenal HTML
 
--- TODO
+HTML secara bahasa merupakan kependekan dari *Hypertext Markup Language* atau sebuah markup yang berisikan standard yang telah ditentukan bersama oleh [World Wide Web Consortiumm (W3C)](https://www.w3.org/) untuk membentuk suatu kerangka website.
+
+Bagaimana sih HTML sebenarnya? Untuk lebih mengerti perannya pada dunia nyata kita akan coba kunjungi website [https://www.baca-quran.id/](https://www.baca-quran.id/) menggunakan peramban (saya menggunakan Firefox), setelah terbuka halamannya kemudian kita klik kanan kanan dan pilih "Inspect Element"
+
+<figure>
+	<img src="/img/contents/02-13-01-right-click.png" alt="Klik kanan pada sebuah website"/>
+	<figcaption>Gambar contoh klik kanan pada website</figcaption>
+</figure>
+
+Dari hasil klik kanan ini kita akan diarahkan pada **Developer Tools** pada tab "Inspector" dengan tampilan seperti berikut:
+
+<figure>
+	<img src="/img/contents/02-13-01-inspect.png" alt="Tampilan inspect element"/>
+	<figcaption>Gambar hasil inspect element</figcaption>
+</figure>
+
+Gambar yang terlihat diatas adalah kode markup HTML. Terlihat rumit? Iya, karena sekarang kita belum mempelajarinya. Seperti anak-anak yang dihadapkan pada huruf dan bilangan yang belum merela pelajari. Setelah ini kita akan coba kupas mengenai bagaimana membuat kode markup HTML bersama-sama.
 
 ## Struktur HTML
 
@@ -59,7 +75,14 @@ Elemen `body` nantinya akan diisi dengan konten yang memang akan secara langsung
 </body>
 ```
 
-Keseluruhan kode HTML dasar tersebut yang bila dikombinasikan dan disimpan ke dalam berkas yang kita beri nama `index.html` dan dibuka dengan peramban di komputer kita akan menampilkan hasil seperti berikut:
+Keseluruhan kode HTML dasar tersebut yang bila dikombinasikan dan disimpan ke dalam berkas yang kita beri nama `02-13-01-basic-html.html`, perlu dikaetahui bahwa kode HTML yang kita buat harus disimpan dalam ekstensi `.html` agar dikenal bahwa ini adalah berkas HTML, setelahnya kita bisa membuka berkas HTML yang sudah kita buat menggunakan peramban di komputer kita.
+
+<figure>
+	<img src="/img/contents/02-13-01-open-in-browser.png" alt="Membuka berkas HTML dengan peramban"/>
+	<figcaption>Gambar contoh membuka berkas HTML dengan peramban</figcaption>
+</figure>
+
+Setelah kita buka di peramban maka akan menampilkan hasil seperti berikut:
 
 <figure>
 	<img src="/img/contents/02-13-01-basic-html.png" alt="Hasil dari contoh kode HTML dasar"/>
@@ -238,9 +261,33 @@ Seperti sudah saya singgung sebelumnya, tautan bisa juga ditempatkan pada elemen
 	<figcaption>Gambar hasil dari contoh kode tautan dengan tombol dan gambar</figcaption>
 </figure>
 
+### Tautan menuju Email
+
+Ada beberapa tautan spesial dalam HTML yang bisa mengarah langsung ke suatu tujuan, misalnya langsung ke email, aplikasi atau tujuan spesial lainnya. Kita akan membahas salah satunya yakni tautan yang mengarah langsung ke suatu email.
+
+Jika pada tautan biasa kita membuat dengan:
+
+```html
+<a href="tautan.html" title="Sebuah tautan">Klik saya</a>
+```
+
+Maka kita bisa membuat tautan untuk mengirim email dengan menambahkan prefix `mailto:` dan diikuti dengan keterangan lainya, seperti alamat email seperti berikut:
+
+```html
+<a href="mailto:someone@yoursite.com">Email Us</a>
+```
+
+Tautan ini akan membuka aplikasi email client yang ada di komputer kalian dan membuat email baru diperuntukkan `someone@yoursite.com`.
+
+Kita bisa juga menambahkan informasi lainnya seperti subjek, tembusan baik cc ataupun bcc dan isi pesan itu sendiri, bisa dilihat pada contoh kode berikut:
+
+```html
+<a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>
+```
+
 ## Blok Kontainer
 
-Blok kontainer bisa diibaratkan sebagai wadah bagi komponen lain sehingga mudah bagi kita untuk mengelompokkan beberapa elemen kedalam satu grup. Blok kontainer yang paling umum dan akan sering kita gunakan adalah elemen `div`. Elemen `div` dikenal sebagai elemen yang murni dan tidak membawa gaya bawaan yang biasanya disematkan oleh masing-masing peramban yang biasanya penampakannya berbeda antara satu peramban dengan peramban lain. Satu-satunya yang mungkin menjadi bawaan adalah bahwa elemen `div` memiliki properti CSS (akan dipelajari pada bagain berikutnya) `display` dengan nilai `block`. Ini artinya `div` akan mengalir ke bawah bukan ke samping seperti kita menambahkan elemen `span` yang akan selalu mengalir ke samping. Mengalir ke bawah berarti `div` akan selalu membuat baris baru di bawah dari elemen sebelumnya. Untuk membuat sebuah elemen `div` bisa mengalir ke samping dibutuhkan bantuan CSS yang bisa mengatur posisi dari elemen `div` dalam sebuah halaman HTML.
+Blok kontainer bisa diibaratkan sebagai wadah bagi komponen lain sehingga mudah bagi kita untuk mengelompokkan beberapa elemen kedalam satu grup. Blok kontainer yang paling umum dan akan sering kita gunakan adalah elemen `div` (*division*). Elemen `div` dikenal sebagai elemen yang murni dan tidak membawa gaya bawaan yang biasanya disematkan oleh masing-masing peramban yang biasanya penampakannya berbeda antara satu peramban dengan peramban lain. Satu-satunya yang mungkin menjadi bawaan adalah bahwa elemen `div` memiliki properti CSS (akan dipelajari pada bagain berikutnya) `display` dengan nilai `block`. Ini artinya `div` akan mengalir ke bawah bukan ke samping seperti kita menambahkan elemen `span` yang akan selalu mengalir ke samping. Mengalir ke bawah berarti `div` akan selalu membuat baris baru di bawah dari elemen sebelumnya. Untuk membuat sebuah elemen `div` bisa mengalir ke samping dibutuhkan bantuan CSS yang bisa mengatur posisi dari elemen `div` dalam sebuah halaman HTML.
 
 Berikut contoh bagaimana kita menggunakan elemen `div` untuk membungkus elemen lain, sehingga kita bisa membedakan ketika kita menambahkan sebuah blok kontainer dan ketika kita tidak menambahkannya:
 
@@ -274,6 +321,43 @@ Seperti namanya, elemen tabel digunakan untuk membuat tabel pada sebuah HTML. Ta
 ### Dasar-dasar Tabel
 
 Sebuah tabel pada HTML biasa kita pecah ke dalam beberapa bagian yang membentuknya, yakni `header` yang berisikan kolom-kolom judul dan sebagainya, `body` yang berisikan baris dan kolom dengan nilai dari data yang ditampilkan serta `footer` yang biasanya berisikan informasi tambahan ataupun hasil berbagai kalkulasi dari masing-masing kolom.
+
+Berikut adalah contoh kode dasar sebuah tabel:
+
+```html
+<table>
+	<thead>
+		<tr>
+			<th>Judul Kolom 1</th>
+			<th>Judul Kolom 2</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Baris 1 Kolom 1</td>
+			<td>Baris 1 Kolom 2</td>
+		</tr>
+		<tr>
+			<td>Baris 2 Kolom 1</td>
+			<td>Baris 2 Kolom 2</td>
+		</tr>
+	</tbody>
+</table>
+```
+
+Kode diatas bila dibuka di peramban akan menghasilkan tampilan:
+
+<figure>
+	<img src="/img/contents/02-13-11-basic-table.png" alt="Hasil dari contoh kode dasar sebuah tabel"/>
+	<figcaption>Gambar hasil dari contoh kode dasar sebuah tabel</figcaption>
+</figure>
+
+Tampilan tersebut masih lumayan susah dimengerti karena tidak ada batas antara kolom dan barisnya, untuk mengatasinya kita cukup menambahkan attribut `border=1` pada tag `table` sehingga menghasilkan tampilan:
+
+<figure>
+	<img src="/img/contents/02-13-11-basic-table-border.png" alt="Hasil dari kode tabel dengan border"/>
+	<figcaption>Gambar hasil dari kode tabel dengan border</figcaption>
+</figure>
 
 ### Kolom dan Baris
 
