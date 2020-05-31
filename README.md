@@ -22,27 +22,24 @@ N/A
   - Bahan Baku Web
   - Persiapan Lingkungan Kerja
 	- Belajar HTML
-	  - Mengenal HTML
+		- Mengenal HTML
 		- Struktur HTML
 		- Heading dan Teks
 		  - Heading
-			- Paragraf
-			- Teks
-			- Cetak Tebal dan Miring
-			- Penekanan
-			- Hyperlink atau Tautan
-			  - Alamat pada tautan
-				- Membuka tautan pada tab baru
-				- Membuat tautan dengan elemen
+		  - Paragraf
+		  - Teks
+		  - Cetak Tebal dan Miring
+		  - Penekanan
+		  - Hyperlink atau Tautan
 		- Blok Kontainer
 		- Tabel
-		  - Dasar-dasar Tabel
+		- Dasar-dasar Tabel
 		  - Kolom dan Baris
-			- Penggabungan Kolom atau Baris
+		  - Penggabungan Kolom atau Baris
 		- Daftar
-			- Daftar Berurut
-			- Daftar Tidak Berurut
-			- Daftar Bersarang
+		  - Daftar Berurut
+		  - Daftar Tidak Berurut
+		  - Daftar Bersarang
 		- Form
 		- Media
 	- Belajar CSS
