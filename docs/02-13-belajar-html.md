@@ -361,6 +361,48 @@ Tampilan tersebut masih lumayan susah dimengerti karena tidak ada batas antara k
 
 ### Kolom dan Baris
 
+Kolom dan baris merupakan bagian utama ketika kita ingin membuat sebuah table. Berikut saya contohkan bagaimana kita melihat sebuah kolom maupun baris pada aplikasi pengolah data Google Sheets pada gambar berikut:
+
+<figure>
+	<img loading="lazy" src="/ebook-belajar-frontend/img/contents/02-13-11-basic-table-on-gsheet.png" alt="Contoh tabel pada Google Sheet"/>
+	<figcaption>Gambar tabel pada Google Sheet</figcaption>
+</figure>
+
+**A** dan **B** serta semua urutan menurun kita bisa sebut satu kolom, sedangkan **1**, **2**, **3** dan urutan kesampingnya kita sebut satu baris. Kita bisa menentukan satu lokasi **Cell** dengan menyebut lokasi kolom serta barisnya, misalkan saya ingin mengambil nilai baris ke 1 dan kolom 1 maka saya bisa menyebut nilai dari **A2**.
+
+Memahami kolom maupun baris di HTML akan lebih mudah bila kita terbiasa dengan aplikasi pengolah data seperti diatas. Pada HTML baris direpresentasikan dengan menggunakan tag `<tr>` sedangkan kolomnya menggunakan tag `<td>` atau `<th>` bila posisinya sebagai judul.
+
+Untuk membuat sebuah tabel dengan baris dan kolom kita perlu membuat barisnya terlebih dahulu baru diikuti dengan berapa jumlah kolom yang ada pada baris tersebut, ini berarti kita menambahkan tag `<tr>` dimana di dalamnya terdapat beberapa `<td>`, seperti pada contoh kode berikut:
+
+```html
+<tr>
+	<td>Baris 1 Kolom 1</td>
+	<td>Baris 1 Kolom 2</td>
+	<td>Baris 1 Kolom 3</td>
+	<td>Baris 1 Kolom 4</td>
+	<td>Baris 1 Kolom 5</td>
+</tr>
+```
+
+Bila kita ingin menambahkan baris baru, maka kita hanya perlu membuat satu lagi `<tr>` yang sejajar dengan baris sebelumnya, seperti pada contoh berikut:
+
+```html
+<tr>
+	<td>Baris 1 Kolom 1</td>
+	<td>Baris 1 Kolom 2</td>
+	<td>Baris 1 Kolom 3</td>
+	<td>Baris 1 Kolom 4</td>
+	<td>Baris 1 Kolom 5</td>
+</tr>
+<tr>
+	<td>Baris 2 Kolom 1</td>
+	<td>Baris 2 Kolom 2</td>
+	<td>Baris 2 Kolom 3</td>
+	<td>Baris 2 Kolom 4</td>
+	<td>Baris 2 Kolom 5</td>
+</tr>
+```
+
 ### Penggabungan Kolom atau Baris
 
 ## Daftar

@@ -24,6 +24,10 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+figure {
+	text-align: center;
+}
+
 figure > img{
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
