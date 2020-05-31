@@ -2,7 +2,7 @@
 
 Buku panduan untuk menyelami dunia pengembangan antarmuka website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ce0e6f37-74d3-41fd-b741-0d87b3500073/deploy-status)](https://app.netlify.com/sites/ebook-belajar-frontend/deploys) ![Dependencies](https://img.shields.io/david/mazipan/ebook-belajar-frontend.svg)
+![Dependencies](https://img.shields.io/david/mazipan/ebook-belajar-frontend.svg)
 
 ## Sampul
 
@@ -10,7 +10,7 @@ Buku panduan untuk menyelami dunia pengembangan antarmuka website
 
 ## Baca Buku
 
-https://ebook-belajar-frontend.netlify.com/
+https://mazipan.github.io/ebook-belajar-frontend/
 
 ## Unduh PDF
 
