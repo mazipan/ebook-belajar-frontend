@@ -47,8 +47,12 @@ module.exports = {
           ],
         },
         {
-          title: 'Media Sosial',
+          title: 'Penulis',
           items: [
+            {
+              label: 'Website',
+              href: 'https://mazipan.space/',
+            },
             {
               label: 'GitHub',
               href: 'https://github.com/mazipan',
@@ -64,7 +68,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()}, Ebook Belajar Frontend. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()}, Ebook Belajar Frontend by Irfan Maulana.`,
 		},
 
 		prism: {
