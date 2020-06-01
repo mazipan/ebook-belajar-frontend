@@ -405,13 +405,37 @@ Bila kita ingin menambahkan baris baru, maka kita hanya perlu membuat satu lagi 
 
 ### Penggabungan Kolom atau Baris
 
-## Daftar
+Pada aplikasi pengolah data, terdapat fitur yang digunakan untuk menggabungkan beberapa **Cell** menjadi satu, fitur ini disebut *merge cell*. *Merge cell* Bisa diaplikasikan baik untuk baris maupun kolom.
+
+// TODO -- gambar merce cell di Google Sheet
+
+Pada tabel di HTML fitur merge cell juga bisa diaplikasikan, hanya saja implementasinya sedikit berbeda ketika kita ingin menggabungkan beberapa baris dengan saat kita menggabungkan beberapa kolom.
+Saat kita ingin menambahkan beberapa kolom kita bisa menambahkan atribut `colspan=JUMLAH_KOLOM` pada tag `<td>`, sedangkan untuk menggabungkan baris kita perlu menambahkan atribut `rowspan=JUMLAH_BARIS`.
+Berikut contoh kode penggunaan `colspan` dan `rowspan` pada sebuah tabel:
+
+// TODO -- kode html colspan & rowspan
+
+Hal yang perlu diperhatikan ketika menggunakan `colspan` maupun `rowspan` adalah jumlah tag `<td>` yang menjadi tidak lagi seimbang dengan baris atau kolom lainnya.
+Ini dikarenakan penggunaan `colspan` ataupun `rowspan` membuat kita mesti mengibaratkan bahwa kita mempunyai sejumlah tag `<td>` yang digabungkan, sehingga jumlah tag `<td>` berkurang sejumlah baris ataupun kolom yang digabungkan.
+
+## Daftar (*List*)
+
+Daftar digunakan ketika kita membutuhkan untuk mengelompokkan sekumpulan informasi yang saling berkaitan baik yang harus berurutan ataupun yang tidak harus berurutan.
+Pada HTML memang dibedakan ketika kita ingin membuat daftar yang berurutan dengan daftar yang tidak berurutan. Tapi keduanya pada dasarnya berbagi hal yang sama, yakni cara membuat elemen dibawahnya.
 
 ### Daftar Berurut
 
+Untuk membuat daftar berurutan kita bisa menggunakan tag `<ol>`
+
 ### Daftar Tidak Berurut
 
+Untuk membuat daftar tidak berurutan kita bisa menggunakan tag `<ul>`
+
 ### Daftar Bersarang
+
+Daftar bersarang adalah daftar di dalam daftar. Ini sering kita lihat pada sebuah daftar isi misalnya.
+
+### Daftar dengan Deskripsi
 
 ## Form
 
