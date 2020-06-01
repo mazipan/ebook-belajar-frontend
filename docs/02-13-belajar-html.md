@@ -425,17 +425,48 @@ Pada HTML memang dibedakan ketika kita ingin membuat daftar yang berurutan denga
 
 ### Daftar Berurut
 
-Untuk membuat daftar berurutan kita bisa menggunakan tag `<ol>`
+Untuk membuat daftar berurutan kita bisa menggunakan tag `<ol>` diikuti dengan tag `<li>` sebagai anggota dari setiap elemen.
+Secara bawaan setiap anggota dalam daftar berurut akan memiliki angka (*numbering*) yang berurutan. Hal ini tentu memudahkan kita dalam membuat daftar karena tidak perlu lagi manual menambahkan angka di depannya.
+Berikut contoh kode untuk membuat daftar berurut:
+
+// TODO -- kode list berurut
+
+Kode di atas akan menghasilkan tampilan sebagai berikut:
+
+// TODO -- gambar hasil
 
 ### Daftar Tidak Berurut
 
-Untuk membuat daftar tidak berurutan kita bisa menggunakan tag `<ul>`
+Mirip dengan daftar berurut, daftar tidak berurut juga menggunakan tag `<li>` pada setiap anggotanya. Hal yang berbeda adalah untuk membuat daftar tidak berurutan kita bisa menggunakan tag `<ul>` sebagai pembungkusnya.
+Berikut contoh kode daftar tidak berurut:
+
+// TODO -- kode list
+
+Kode di atas akan menghasilkan tampilan sebagai berikut:
+
+// TODO -- gambar hasil
 
 ### Daftar Bersarang
 
-Daftar bersarang adalah daftar di dalam daftar. Ini sering kita lihat pada sebuah daftar isi misalnya.
+Daftar bersarang adalah daftar di dalam daftar. Ini sering kita lihat pada sebuah daftar isi misalnya. Kita bisa mengkombinasikan baik daftar berurut maupun daftar tidak berurut dalam membuat daftar bersarang.
+Tergantung pada kebutuhan dan hal yang memang ingin dicapai.
+
+// TODO -- kode
+
+Kode di atas menghasilkan tampilan:
+
+// TODO -- gambar hasil
 
 ### Daftar dengan Deskripsi
+
+Sedikit berbeda dengan membuat dua daftar diatas, membuat daftar dengan deskripsi bisa diawali dengan tag `<dl>` dan diikuti dengan tag `<dt>` sebagai anggota yang befungsi sebagai judul dan `<dd>` sebagai anggota yang berfungsi sebagai penjelas atau deskripsi dari judul.
+Berikut contoh kode daftar dengan deskripsi:
+
+// TODO -- kode
+
+Kode di atas menghasilkan tampilan:
+
+// TODO -- gambar hasil
 
 ## Form
 
@@ -486,3 +517,5 @@ Daftar bersarang adalah daftar di dalam daftar. Ini sering kita lihat pada sebua
 ### Video
 
 ## Elemen Lain
+
+### Collapsible
