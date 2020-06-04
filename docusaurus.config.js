@@ -67,6 +67,19 @@ module.exports = {
             },
           ],
         },
+        {
+          title: 'Projek Lain',
+          items: [
+            {
+              label: 'Baca Quran',
+              href: 'https://www.baca-quran.id/',
+            },
+            {
+              label: 'Free Login Form Template',
+              href: 'https://mazipan.github.io/login-page-css/',
+            }
+          ],
+        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()}, Ebook Belajar Frontend by Irfan Maulana.`,
     },
