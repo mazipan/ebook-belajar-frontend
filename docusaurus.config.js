@@ -7,24 +7,24 @@ module.exports = {
   organizationName: 'mazipan',
   projectName: 'ebook-belajar-frontend',
   themeConfig: {
-		image: 'img/logo-512x512.png',
+    image: 'img/logo-512x512.png',
 
     navbar: {
       title: 'Ebook Belajar Frontend',
       logo: {
         alt: 'Ebook Belajar Frontend',
         src: 'img/logo-64x64.png',
-			},
+      },
 
       links: [
-        {to: '/docs/01-11-pengantar', label: 'Baca Buku', position: 'left'},
+        { to: '/docs/01-11-pengantar', label: 'Baca Buku', position: 'left' },
         {
           href: 'https://github.com/mazipan/ebook-belajar-frontend',
           label: 'Kode Sumber',
           position: 'right',
         },
       ],
-		},
+    },
 
     footer: {
       style: 'dark',
@@ -69,10 +69,15 @@ module.exports = {
         },
       ],
       copyright: `Copyright © ${new Date().getFullYear()}, Ebook Belajar Frontend by Irfan Maulana.`,
-		},
+    },
 
-		prism: {
+    prism: {
       theme: require('prism-react-renderer/themes/dracula'),
+    },
+
+    gtag: {
+      trackingID: 'UA-25065548-2',
+      anonymizeIP: true,
     },
   },
   presets: [
@@ -81,12 +86,24 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/mazipan/ebook-belajar-frontend/edit/master/',
+          editUrl:
+            'https://github.com/mazipan/ebook-belajar-frontend/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
-	],
+  ],
+  plugins: [
+    '@docusaurus/plugin-google-gtag',
+    [
+      '@docusaurus/plugin-sitemap',
+      {
+        cacheTime: 600 * 1000, // 600 sec - cache purge period
+        changefreq: 'weekly',
+        priority: 0.5,
+      },
+    ],
+  ],
 };
