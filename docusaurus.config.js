@@ -109,9 +109,9 @@ module.exports = {
     ],
   ],
   plugins: [
-    '@docusaurus/plugin-google-gtag',
+    require.resolve('@docusaurus/plugin-google-gtag'),
     [
-      '@docusaurus/plugin-sitemap',
+      require.resolve('@docusaurus/plugin-sitemap'),
       {
         cacheTime: 600 * 1000, // 600 sec - cache purge period
         changefreq: 'weekly',

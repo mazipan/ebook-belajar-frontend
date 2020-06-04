@@ -2,7 +2,7 @@
 
 Buku panduan untuk menyelami dunia pengembangan antarmuka website
 
-![Dependencies](https://img.shields.io/david/mazipan/ebook-belajar-frontend.svg)
+![Deploy](https://github.com/mazipan/ebook-belajar-frontend/workflows/Deploy/badge.svg) ![Dependencies](https://img.shields.io/david/mazipan/ebook-belajar-frontend.svg)
 
 ## Sampul
 
