@@ -109,7 +109,6 @@ module.exports = {
     ],
   ],
   plugins: [
-    require.resolve('@docusaurus/plugin-google-gtag'),
     [
       require.resolve('@docusaurus/plugin-sitemap'),
       {
